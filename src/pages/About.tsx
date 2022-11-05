@@ -1,6 +1,6 @@
 import React, { useState, useLayoutEffect, useEffect } from "react";
 import "../styles/about.scss";
-import * as ScrollMagic from "scrollmagic"
+import * as ScrollMagic from "scrollmagic";
 import Lottie from "lottie-react";
 import developer from "../assets/lottie/developer.json";
 import phone from "../assets/logo/phone.png";
@@ -132,8 +132,8 @@ const AboutMe: React.FC = () => {
       </div>
       <div className="image-wrapper flex-col-reverse md:flex-row text-2xl md:text-3xl">
         <div className="introduction  md:w-3/6">
-          <p className="me">Who am I?</p>
-          <p className="content1">
+          <p className="me text-2xl font-bold">Who am I?</p>
+          <p className="content1 text-2xl">
             I'm a Developer who is passionate about making open-source more accessible, creating technology to elevate people, and building community. Some technologies I enjoy working with include ReactJS, NodeJS, and MongoDB.
           </p>
         </div>
