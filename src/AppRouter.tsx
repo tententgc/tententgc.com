@@ -3,8 +3,8 @@ import { BrowserRouter,Route,Routes} from "react-router-dom"
 
 import MainLayout from "./layouts/MainLayout"
 import About from "./pages/About"
-import Contact from "./pages/Contact"
 import Projects from "./pages/Projects"
+import Contact from "./pages/Contact"
 
 const AppRouter:React.FC<any> = () => {
     return (
@@ -30,7 +30,7 @@ const AppRouter:React.FC<any> = () => {
             path="/contacts"
             element={
               <MainLayout>
-                <Contact />
+                <Contact/>
               </MainLayout>
             }
           />

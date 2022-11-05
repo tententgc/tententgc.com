@@ -9,7 +9,7 @@ export function Loading(): React.ReactNode {
             animationDelay: `${0.1 * i}s`,
             fontSize: "2rem",
             fontWeight: "bold",
-            color: "rgb(101, 127, 222)",
+            color: "rgb(66, 199, 197)",
           }}
         >
           {char}
